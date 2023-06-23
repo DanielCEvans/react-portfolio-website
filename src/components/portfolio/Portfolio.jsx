@@ -15,10 +15,15 @@ const Portfolio = () => {
           <div className="portfolio__item-img">
             <img src={ROICALC} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Employment Hero</h3>
+          <h4>Return on Investment Calculator</h4>
           <h5>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            itaque ipsam cum aut.
+            A tool I built for the sales teams at Employment Hero. Very pleased
+            with how this project turned out and the quality and structure of
+            the code written. This project involved complex form validation,
+            modal windows, tooltips, complex calculation logic, and was the
+            first time implementing the Zustand state management library which
+            significantly reduced excessive prop drilling.
           </h5>
           <div className="portfolio__item-cta">
             <a
@@ -41,7 +46,15 @@ const Portfolio = () => {
           <div className="portfolio__item-img">
             <img src={TODOAPP} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>To Do List Application</h3>
+          <h5>
+            The first application I built and deployed using React. This project
+            taught me the fundamentals of React, its component-based
+            architecture, and state management. This gave me a great foundation
+            to understand the benefits of React and how it intelligently updates
+            only the necessary parts of the user interface, resulting in
+            enhanced performance.
+          </h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/DanielCEvans/to-do-app"
@@ -64,6 +77,7 @@ const Portfolio = () => {
             <img src={DATASCIENCE} alt="" />
           </div>
           <h3>Data Science Website</h3>
+          <h5>This website showcases my Data Science projects</h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/DanielCEvans/DanielCEvans.github.io"

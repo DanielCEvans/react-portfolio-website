@@ -1,9 +1,7 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/profile.jpg";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
+import { FaAward, FaReact, FaServer } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -23,25 +21,48 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
+              <small>2+ Years</small>
             </article>
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <FaReact className="about__icon" />
+              <h5>React</h5>
+              <small>Proficient</small>
             </article>
             <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <FaServer className="about__icon" />
+              <h5>CS Fundamentals</h5>
+              <small>Data structures and algorithms</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-            rem provident laborum quaerat modi ad expedita et itaque blanditiis
-            at tenetur, ex, perspiciatis architecto, molestias eius ipsa totam
-            ipsum nemo.
+            Hey there! I'm Daniel Evans, currently working as a Data Analyst at
+            Employment Hero, one of Australia's renowned tech unicorns. My true
+            passion however, lies in front-end development. Proficient in web
+            development fundamentals—HTML, CSS, JavaScript, React, and
+            TypeScript—I take pride in writing clean, concise, and efficient
+            code.
+          </p>
+          <p>
+            Beyond web development, I have a solid understanding of computer
+            science fundamentals, particularly data structures and algorithms. I
+            love staying up to date with the latest developments in the tech
+            industry, always hungry to learn new frameworks, tools, and best
+            practices.
+          </p>
+          <p>
+            I thrive in diverse team environments, collaborating closely with my
+            colleagues. I believe that open dialogue and knowledge sharing lead
+            to the best outcomes. I can articulate complex concepts in a clear
+            and concise manner, making me a valuable asset during collaborative
+            problem-solving sessions.
+          </p>
+          <p>
+            My journey as a front-end developer is an exciting one, and I'm
+            dedicated to making a lasting impact. With my foundation in web
+            development, my knack for elegant code, and my ability to excel in
+            teams, I'm ready to embrace the ever-evolving world of technology
+            and create exceptional user experiences.
           </p>
 
           <a href="#contact" className="btn btn-primary">
