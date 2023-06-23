@@ -1,10 +1,23 @@
-.about__container {
+/* .about__container {
   display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+} */
+.about__container {
+  display: flex;
+  flex-direction: column;
 }
 
-.about__me {
+.about__me-text p {
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem;
+  color: var(--colour-light);
+}
+
+.about__me-text a {
+  margin-top: 1.1rem;
+}
+/* .about__me {
   width: 90%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
@@ -23,7 +36,7 @@
   overflow: hidden;
   transform: rotate(12deg);
   transition: var(--transition);
-}
+} */
 
 .about__me-image:hover {
   transform: rotate(0deg);
@@ -65,6 +78,9 @@
   color: var(--colour-light);
 }
 
+.about__content {
+  margin-top: 2rem;
+}
 .about__content p {
   font-size: 0.9rem;
   margin: 1rem 0 1rem;

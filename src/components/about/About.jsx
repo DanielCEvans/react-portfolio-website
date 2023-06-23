@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/profile.jpg";
 import { FaAward, FaReact, FaServer } from "react-icons/fa";
 
 const About = () => {
@@ -10,35 +9,15 @@ const About = () => {
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="About Image" />
-          </div>
-        </div>
-
-        <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>2+ Years</small>
-            </article>
-            <article className="about__card">
-              <FaReact className="about__icon" />
-              <h5>React</h5>
-              <small>Proficient</small>
-            </article>
-            <article className="about__card">
-              <FaServer className="about__icon" />
-              <h5>CS Fundamentals</h5>
-              <small>Data structures and algorithms</small>
-            </article>
-          </div>
-
+        <div className="about__me-text">
           <p>
             Hey there! I'm Daniel Evans, currently working as a Data Analyst at
-            Employment Hero, one of Australia's renowned tech unicorns. My true
-            passion however, lies in front-end development. Proficient in web
+            <a href="https://employmenthero.com/" target="_blank">
+              {" "}
+              Employment Hero
+            </a>
+            , one of Australia's renowned tech unicorns. My true passion
+            however, lies in front-end development. Proficient in web
             development fundamentals—HTML, CSS, JavaScript, React, and
             TypeScript—I take pride in writing clean, concise, and efficient
             code.
@@ -69,6 +48,31 @@ const About = () => {
             Let's Talk
           </a>
         </div>
+        <div className="about__content">
+          <div className="about__cards">
+            <article className="about__card">
+              <FaAward className="about__icon" />
+              <h5>Experience</h5>
+              <small>2+ Years</small>
+            </article>
+            <article className="about__card">
+              <FaReact className="about__icon" />
+              <h5>React</h5>
+              <small>Proficient</small>
+            </article>
+            <article className="about__card">
+              <FaServer className="about__icon" />
+              <h5>CS Fundamentals</h5>
+              <small>Data structures and algorithms</small>
+            </article>
+          </div>
+        </div>
+
+        {/* <div className="about__me">
+          <div className="about__me-image">
+            <img src={ME} alt="About Image" />
+          </div>
+        </div> */}
       </div>
     </section>
   );
