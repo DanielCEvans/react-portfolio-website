@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import { FaAward, FaReact, FaServer } from "react-icons/fa";
+import { LuBrainCircuit } from "react-icons/lu";
 
 const About = () => {
   return (
@@ -16,32 +17,30 @@ const About = () => {
               {" "}
               Employment Hero
             </a>
-            , one of Australia's renowned tech unicorns. My true passion
-            however, lies in front-end development. Proficient in web
-            development fundamentals—HTML, CSS, JavaScript, React, and
-            TypeScript—I take pride in writing clean, concise, and efficient
-            code.
+            , one of Australia's renowned tech unicorns. I thrive on the
+            challenge of exploring data, applying statistical analysis
+            techniques, and leveraging machine learning tools to extract
+            meaningful patterns and trends.
           </p>
           <p>
-            Beyond web development, I have a solid understanding of computer
-            science fundamentals, particularly data structures and algorithms. I
-            love staying up to date with the latest developments in the tech
-            industry, always hungry to learn new frameworks, tools, and best
-            practices.
+            I take pride in transforming intricate analytical findings into
+            clear and impactful insights that resonate with both technical and
+            non-technical audiences. Whether it's presenting to executives,
+            collaborating with colleagues, or working within diverse teams, I
+            believe effective communication is the key to unlocking the true
+            value of data.
           </p>
           <p>
-            I thrive in diverse team environments, collaborating closely with my
-            colleagues. I believe that open dialogue and knowledge sharing lead
-            to the best outcomes. I can articulate complex concepts in a clear
-            and concise manner, making me a valuable asset during collaborative
-            problem-solving sessions.
+            Collaboration fuels my inspiration. I embrace the opportunity to
+            work with individuals from diverse backgrounds, as I believe that
+            collective perspectives enhance problem-solving and foster
+            innovative solutions. Together, we can leverage our skills and
+            knowledge to drive data-driven decision-making and achieve
+            remarkable outcomes.
           </p>
           <p>
-            My journey as a front-end developer is an exciting one, and I'm
-            dedicated to making a lasting impact. With my foundation in web
-            development, my knack for elegant code, and my ability to excel in
-            teams, I'm ready to embrace the ever-evolving world of technology
-            and create exceptional user experiences.
+            I am thrilled to be part of this dynamic field, where data holds the
+            potential to drive transformative change.
           </p>
 
           <a href="#contact" className="btn btn-primary">
@@ -56,8 +55,8 @@ const About = () => {
               <small>2+ Years</small>
             </article>
             <article className="about__card">
-              <FaReact className="about__icon" />
-              <h5>React</h5>
+              <LuBrainCircuit className="about__icon" />
+              <h5>Machine Learning</h5>
               <small>Proficient</small>
             </article>
             <article className="about__card">

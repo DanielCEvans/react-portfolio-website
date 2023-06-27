@@ -13,6 +13,36 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-img">
+            <img src={DATASCIENCE} alt="" />
+          </div>
+          <h3>Data Science Website</h3>
+          <h5>
+            This website showcases my Data Science projects undertaken
+            throughout university. These projects provided me with a solid
+            foundation in statistical analysis, data visualization, machine
+            learning, data mining, and big data management. Through hands-on
+            projects and industry collaborations, I gained practical experience
+            in applying advanced analytics techniques and tools.
+          </h5>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/DanielCEvans/DanielCEvans.github.io"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://danielcevans.github.io/index.html"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-img">
             <img src={ROICALC} alt="" />
           </div>
           <h3>Employment Hero</h3>
@@ -65,29 +95,6 @@ const Portfolio = () => {
             </a>
             <a
               href="https://to-do-app-danielevans.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-img">
-            <img src={DATASCIENCE} alt="" />
-          </div>
-          <h3>Data Science Website</h3>
-          <h5>This website showcases my Data Science projects</h5>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/DanielCEvans/DanielCEvans.github.io"
-              className="btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://danielcevans.github.io/index.html"
               className="btn btn-primary"
               target="_blank"
             >
