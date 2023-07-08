@@ -67,12 +67,6 @@ const About = () => {
             </article>
           </div>
         </div>
-
-        {/* <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="About Image" />
-          </div>
-        </div> */}
       </div>
     </section>
   );
