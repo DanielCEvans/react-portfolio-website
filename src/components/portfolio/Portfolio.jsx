@@ -3,6 +3,7 @@ import "./portfolio.css";
 import ROICALC from "../../assets/roiCalc.png";
 import TODOAPP from "../../assets/todoapp.png";
 import DATASCIENCE from "../../assets/DataScienceWebsite.png";
+import NAMESORTER from "../../assets/nameSorter.png";
 
 const Portfolio = () => {
   return (
@@ -23,7 +24,8 @@ const Portfolio = () => {
             the code written. This project involved complex form validation,
             modal windows, tooltips, complex calculation logic, and was the
             first time implementing the Zustand state management library which
-            significantly reduced excessive prop drilling.
+            significantly reduced excessive prop drilling. <br />
+            <span>** Note - this application is not responsive **</span>
           </h5>
           <div className="portfolio__item-cta">
             <a
@@ -69,6 +71,29 @@ const Portfolio = () => {
               target="_blank"
             >
               Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-img">
+            <img src={NAMESORTER} alt="" />
+          </div>
+          <h3>Name Sorter Console Application</h3>
+          <h5>
+            Javascript console application which can be downloaded as an
+            executable from the github repository. This small console
+            application will take a list of unsorted names in a .txt file, sort
+            the list of names alphabetically by surname (followed by any given
+            names), print the sorted names to the console, and save the sorted
+            names to a .txt file within the same directory.
+          </h5>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/DanielCEvans/javascript-name-sorter"
+              className="btn"
+              target="_blank"
+            >
+              Github
             </a>
           </div>
         </article>
