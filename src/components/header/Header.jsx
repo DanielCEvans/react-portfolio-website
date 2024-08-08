@@ -9,11 +9,11 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Daniel Evans</h1>
-        <h5 className="text-light">Front End Developer</h5>
+        <h5 className="text-light">Full Stack Developer</h5>
         <CTA />
         <HeaderSocials />
         <div className="me">
-          <img src={ME} alt="me"></img>
+          <img src={ME} alt="me" style={{height: '660px'}}></img>
         </div>
 
         <a href="#contact" className="scroll__down">

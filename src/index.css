@@ -114,6 +114,7 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+  height: 300px;
 }
 
 /* ================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
