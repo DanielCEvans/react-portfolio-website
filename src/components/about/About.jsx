@@ -11,23 +11,23 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me-text">
           <p>
-            Hey there! I'm Daniel Evans, currently working as a Data Analyst at
-            <a href="https://employmenthero.com/" target="_blank">
+            Hey there! I'm Daniel Evans, currently working as a Full Stack developer at
+            <a href="https://dyedurham.com.au/" target="_blank">
               {" "}
-              Employment Hero
+              Dye & Durham.
+              {" "} 
             </a>
-            , one of Australia's renowned tech unicorns. My true passion
-            however, lies in front-end development. Proficient in web
-            development fundamentals—HTML, CSS, JavaScript, React, and
-            TypeScript—I take pride in writing clean, concise, and efficient
-            code.
+            My approach to development is rooted in a deep understanding of 
+            SOLID principles, which ensures that the software I build is not
+            only robust and maintainable, but also adaptable to change.
           </p>
           <p>
-            Beyond web development, I have a solid understanding of computer
-            science fundamentals, particularly data structures and algorithms. I
-            love staying up to date with the latest developments in the tech
-            industry, always hungry to learn new frameworks, tools, and best
-            practices.
+            With a strong grasp of computer science fundamentals, particularly
+            in data structures and algorithms, I enjoy tackling complex problems
+            and optimising performance for both server-side and client-side applications.
+            I'm always eager to learn and stay updated with the latest technologies, 
+            continuously refining my skills to deliver high-quality solutions that meet 
+            both business goals and user needs.
           </p>
           <p>
             I thrive in diverse team environments, collaborating closely with my
@@ -37,11 +37,9 @@ const About = () => {
             problem-solving sessions.
           </p>
           <p>
-            My journey as a front-end developer is an exciting one, and I'm
-            dedicated to making a lasting impact. With my foundation in web
-            development, my knack for elegant code, and my ability to excel in
-            teams, I'm ready to embrace the ever-evolving world of technology
-            and create exceptional user experiences.
+            My journey as a developer is an exciting one, and I'm dedicated to making
+            a lasting impact. With my foundation in web development, my knack for elegant code, 
+            and my ability to excel in teams, I'm ready to embrace the ever-evolving world of technology.
           </p>
 
           <a href="#contact" className="btn btn-primary">
