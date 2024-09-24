@@ -19,12 +19,8 @@ const Portfolio = () => {
           <h3>Meal Planner</h3>
           <h4>Personal Project **work in progress**</h4>
           <h5>
-            A tool I built for the sales teams at Employment Hero. Very pleased
-            with how this project turned out and the quality and structure of
-            the code written. This project involved complex form validation,
-            modal windows, tooltips, complex calculation logic, and was the
-            first time implementing the Zustand state management library which
-            significantly reduced excessive prop drilling. <br />
+          An application I am in the process of building to automate the process of generating a shopping list. I enjoy cooking, going to the markets, but I do not enjoy the 15-20 minutes it takes me to generate a shopping list. From selecting the recipes, to collating the ingredients, and then determining which ingredients I currently have at home, this application will automate this process. 
+          The backend is written in C# /.NET, and the frontend using Angular. The goal is to create a microservice architecture by sending a bus message (using RabbitMQ) to an ‘email’ service which will send the ingredients list via email. I plan to containerise the application, host it within Google Cloud Platform, and utilise Github Actions for the CI/CD pipeline.
           </h5>
           <div className="portfolio__item-cta">
             <a
